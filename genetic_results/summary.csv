@@ -1,0 +1,43 @@
+problem,dimension,configuration,population_size,elitism_ratio,crossover_probability,mutation_probability,selection_type,crossover_type,best,worst,mean,median,std,optimal_runs,avg_optimum_evaluations
+OneMax,10,Baseline,20,0.1,1.0,0.005,rank,one_point,10,10,10,10.0,0.0,10,114.4
+OneMax,10,Population 50,50,0.1,1.0,0.005,rank,one_point,10,10,10,10.0,0.0,10,149.1
+OneMax,10,Elitism 20%,20,0.2,1.0,0.005,rank,one_point,10,10,10,10.0,0.0,10,168.3
+OneMax,10,Crossover 70%,20,0.1,0.7,0.005,rank,one_point,10,10,10,10.0,0.0,10,234.2
+OneMax,10,Mutation 1%,20,0.1,1.0,0.01,rank,one_point,10,10,10,10.0,0.0,10,116.3
+OneMax,10,Roulette,20,0.1,1.0,0.005,roulette,one_point,10,10,10,10.0,0.0,10,243.3
+OneMax,10,Two-point,20,0.1,1.0,0.005,rank,two_point,10,10,10,10.0,0.0,10,122.1
+OneMax,30,Baseline,20,0.1,1.0,0.005,rank,one_point,30,30,30,30.0,0.0,10,736.3
+OneMax,30,Population 50,50,0.1,1.0,0.005,rank,one_point,30,30,30,30.0,0.0,10,916.2
+OneMax,30,Elitism 20%,20,0.2,1.0,0.005,rank,one_point,30,30,30,30.0,0.0,10,721.3
+OneMax,30,Crossover 70%,20,0.1,0.7,0.005,rank,one_point,30,30,30,30.0,0.0,10,661.3
+OneMax,30,Mutation 1%,20,0.1,1.0,0.01,rank,one_point,30,30,30,30.0,0.0,10,609.7
+OneMax,30,Roulette,20,0.1,1.0,0.005,roulette,one_point,30,30,30,30.0,0.0,10,1064.1
+OneMax,30,Two-point,20,0.1,1.0,0.005,rank,two_point,30,30,30,30.0,0.0,10,838.2
+OneMax,100,Baseline,20,0.1,1.0,0.005,rank,one_point,100,100,100,100.0,0.0,10,2192.6
+OneMax,100,Population 50,50,0.1,1.0,0.005,rank,one_point,100,100,100,100.0,0.0,10,2838.4
+OneMax,100,Elitism 20%,20,0.2,1.0,0.005,rank,one_point,100,100,100,100.0,0.0,10,2062.9
+OneMax,100,Crossover 70%,20,0.1,0.7,0.005,rank,one_point,100,100,100,100.0,0.0,10,2553.2
+OneMax,100,Mutation 1%,20,0.1,1.0,0.01,rank,one_point,100,100,100,100.0,0.0,10,2364.9
+OneMax,100,Roulette,20,0.1,1.0,0.005,roulette,one_point,100,100,100,100.0,0.0,10,6018.5
+OneMax,100,Two-point,20,0.1,1.0,0.005,rank,two_point,100,100,100,100.0,0.0,10,1830.3
+LeadingOnes,10,Baseline,20,0.1,1.0,0.005,rank,one_point,10,9,9.9,10.0,0.31622776601683794,9,264.3333333333333
+LeadingOnes,10,Population 50,50,0.1,1.0,0.005,rank,one_point,10,10,10,10.0,0.0,10,309.7
+LeadingOnes,10,Elitism 20%,20,0.2,1.0,0.005,rank,one_point,10,8,9.8,10.0,0.6324555320336759,9,380.8888888888889
+LeadingOnes,10,Crossover 70%,20,0.1,0.7,0.005,rank,one_point,10,8,9.6,10.0,0.699205898780101,7,169.42857142857142
+LeadingOnes,10,Mutation 1%,20,0.1,1.0,0.01,rank,one_point,10,9,9.9,10.0,0.31622776601683794,9,221.44444444444446
+LeadingOnes,10,Roulette,20,0.1,1.0,0.005,roulette,one_point,10,6,9.3,10.0,1.4944341180973262,8,170
+LeadingOnes,10,Two-point,20,0.1,1.0,0.005,rank,two_point,10,4,9.4,10.0,1.8973665961010275,9,392.22222222222223
+LeadingOnes,30,Baseline,20,0.1,1.0,0.005,rank,one_point,30,11,22.9,24.0,5.6656861896861175,1,2112
+LeadingOnes,30,Population 50,50,0.1,1.0,0.005,rank,one_point,30,19,23.9,23.0,4.094712037087183,2,2512
+LeadingOnes,30,Elitism 20%,20,0.2,1.0,0.005,rank,one_point,30,22,26.5,27.0,3.719318934070233,5,2188.8
+LeadingOnes,30,Crossover 70%,20,0.1,0.7,0.005,rank,one_point,30,12,26,28.5,5.830951894845301,4,2327.5
+LeadingOnes,30,Mutation 1%,20,0.1,1.0,0.01,rank,one_point,30,26,29.6,30.0,1.2649110640673518,9,1839.3333333333333
+LeadingOnes,30,Roulette,20,0.1,1.0,0.005,roulette,one_point,30,18,24.4,24.0,3.7178249316263163,2,2928.5
+LeadingOnes,30,Two-point,20,0.1,1.0,0.005,rank,two_point,30,20,26.8,30.0,4.211096452627668,6,2434.8333333333335
+LeadingOnes,100,Baseline,20,0.1,1.0,0.005,rank,one_point,88,41,70.9,68.5,13.211526953552509,0,
+LeadingOnes,100,Population 50,50,0.1,1.0,0.005,rank,one_point,70,47,53.8,51.0,7.192588778272627,0,
+LeadingOnes,100,Elitism 20%,20,0.2,1.0,0.005,rank,one_point,93,47,70.6,70.5,11.56815552377397,0,
+LeadingOnes,100,Crossover 70%,20,0.1,0.7,0.005,rank,one_point,75,56,66.3,68.5,7.0087247215326,0,
+LeadingOnes,100,Mutation 1%,20,0.1,1.0,0.01,rank,one_point,87,69,76.7,74.0,7.180993431738165,0,
+LeadingOnes,100,Roulette,20,0.1,1.0,0.005,roulette,one_point,84,46,59.2,57.5,12.236557250032925,0,
+LeadingOnes,100,Two-point,20,0.1,1.0,0.005,rank,two_point,78,59,67.4,68.5,6.380525927469546,0,
